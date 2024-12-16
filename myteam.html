@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dni's Porfolio</title>
+<link rel="icon" href="images/Asset 6@4x.png">
+<link rel="stylesheet" href="css/MAIN-STYLE.css">
+<link rel="stylesheet" href="css/all.css">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=favorite,home,search,settings" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+	<nav class="box-shadow-example text-menu ">
+  <div class="container"> <a href="index.html" class="nav-brand">DONG NGHI'S PORTFOLIO</a>
+    <button type="button" class="btn-toggle" style="font-size: 20px"> &#9776; 
+    <!--<span class="fa-solid fa-bars fa-lg"></span>--> 
+    
+    </button>
+    <div id="menu">
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="#" id="btn-dropdown">Giới thiệu<span class="fa-solid fa-angle-down"></span></a>
+          <ul id="dropdown-menu">
+            <li><a href="about.html#cv">My CV</a></li>
+            <li><a href="about.html#skill">My skill</a></li>
+           <!-- <li><a href="about.html#test">Cảm nhận</a></li>-->
+          </ul>
+        </li>
+        <li><a href="service.html">Dịch vụ</a></li>
+        <li><a href="project.html">Dự án</a></li>
+        <li><a href="myteam.html">Đội ngũ</a></li>
+        <li><a href="contact.html"> Liên hệ </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+	
+	
+<body>
+<section class="td-trang">
+	<div class="text-center">
+	<h1>Team</h1>
+		<p><a href="index.html" class="text-1 ">Trang chủ</a> &gt; Team</p>
+	</div>
+</section>	
+	<section id="team">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-12 col-lg-12 mx-auto text-center">		<!--<h1 class="text-highlight-1 mb-3"> Gặp gỡ <span>đội ngũ của chúng tôi</span> </h1>-->
+				<h4>Đội ngũ của chúng tôi bao gồm những chuyên gia tận tâm và lành nghề, luôn nỗ lực tạo ra những thiết kế đẹp mắt và có sức ảnh hưởng.</h4>
+			</div>
+			<div class="col-12 col-md-5 col-lg-4 mx-auto text-center">
+			<img src="images/phuoc@4x.jpg" alt="phuoc" class="img-100">
+				<h2>Nguyễn Tấn Phước</h2>
+				<p>Một nhà thiết kế đồ họa chuyên về thiết kế hình ảnh và xây dựng thương hiệu, tạo ra những thiết kế có sức ảnh hưởng và đáng nhớ.</p>
+			</div>
+			<div class="col-12 col-md-5 col-lg-4 mx-auto text-center">
+			<img src="images/nghi@4x.jpg" alt="nghi" class="img-100 mb-4">
+				<h2>Phạm Đông Nghi</h2>
+				<p>Một nghệ sĩ đa năng kết hợp các kỹ thuật truyền thống và kỹ thuật số để tạo ra những thiết kế độc đáo, nhiều sắc màu.</p>
+			</div>
+		</div>
+	</div>
+	</section>
+	
+	
+	
+	
+<footer class="bg-primary-6 text-light-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <h3>About me</h3>
+        <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.</p>
+        <p><i>Ban quyen boi nenenenen &copy;Dnghi</i></p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <h3>Newsletter</h3>
+        <p><i class="fa-solid fa-envelope"></i> &nbsp; 9.1.phamdongnghi.17@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>&nbsp;0122 888 436</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <h3>Follow me</h3>
+	  <p class="ss-icon-1 ">
+		  <a href="https://www.behance.net/gallery/214092505/D-an-Sem-1-B-NDTH-BOARDGAME-MPD" class="text-light-white"><i class="fa-brands fa-behance fa-2x"></i></a>
+		  <a href="https://www.facebook.com/bix.pham" class="text-light-white"><i class="fa-brands fa-facebook fa-2x"></i></a>
+			<a href="https://www.instagram.com/dgnii.mdih_/" class="text-light-white"><i class="fa-brands fa-instagram fa-2x"></i></a>
+			<a href="https://www.tiktok.com/@dn.ngi?is_from_webapp=1&sender_device=pc" class="text-light-white"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+			
+		</p>
+		  
+      </div>
+    </div>
+  </div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".btn-toggle").click(function(){
+    $("#menu").slideToggle("fast");
+  });
+		$("#btn-dropdown").click(function(){
+    $("#dropdown-menu").slideToggle("fast");
+  });
+});
+</script>
+	
+	</body>
+</html>

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'font-svn';
+    src: url('SVN-CapricaScript.eot');
+    src: url('SVN-CapricaScript.eot?#iefix') format('embedded-opentype'),
+        url('SVN-CapricaScript.woff2') format('woff2'),
+        url('SVN-CapricaScript.woff') format('woff'),
+        url('SVN-CapricaScript.ttf') format('truetype'),
+        url('SVN-CapricaScript.svg#SVN-CapricaScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Mutlu';
+    src: url('SVN-Mutlu.eot');
+    src: url('SVN-Mutlu.eot?#iefix') format('embedded-opentype'),
+        url('SVN-Mutlu.woff2') format('woff2'),
+        url('SVN-Mutlu.woff') format('woff'),
+        url('SVN-Mutlu.ttf') format('truetype'),
+        url('SVN-Mutlu.svg#SVN-Mutlu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asian Food';
+    src: url('AsianFood.eot');
+    src: url('AsianFood.eot?#iefix') format('embedded-opentype'),
+        url('AsianFood.woff2') format('woff2'),
+        url('AsianFood.woff') format('woff'),
+        url('AsianFood.ttf') format('truetype'),
+        url('AsianFood.svg#AsianFood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merry Christmas Star';
+    src: url('MerryChristmasStar.eot');
+    src: url('MerryChristmasStar.eot?#iefix') format('embedded-opentype'),
+        url('MerryChristmasStar.woff2') format('woff2'),
+        url('MerryChristmasStar.woff') format('woff'),
+        url('MerryChristmasStar.ttf') format('truetype'),
+        url('MerryChristmasStar.svg#MerryChristmasStar') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merry Christmas Flake';
+    src: url('MerryChristmasFlake.eot');
+    src: url('MerryChristmasFlake.eot?#iefix') format('embedded-opentype'),
+        url('MerryChristmasFlake.woff2') format('woff2'),
+        url('MerryChristmasFlake.woff') format('woff'),
+        url('MerryChristmasFlake.ttf') format('truetype'),
+        url('MerryChristmasFlake.svg#MerryChristmasFlake') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
